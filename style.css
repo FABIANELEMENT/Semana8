@@ -1,0 +1,108 @@
+/* Estilos para la página */
+.search-container { 
+text-align: center; 
+margin-top: 20px;
+} 
+
+#results-container { 
+text-align: center;
+display: none;
+margin-top: 20px;
+border: 1px solid #ccc;
+padding: 15px;
+margin-top: 10px;
+background-color: #f9f9f9;
+border-radius: 5px;
+}
+
+.evento {
+cursor: pointer;
+padding: 10px;
+background-color: #eee;
+margin: 5px 0;
+}
+
+#registro-evento.form-group { 
+text-align: center;
+
+}
+
+#registro-proyecto.form-group { 
+text-align: center;
+
+}
+
+#donacion-container { 
+text-align: center;
+margin-top: 20px;
+} 
+
+#proyectos-container { 
+text-align: center;
+margin-top: 20px;
+} 
+
+.proyectos-lista {
+list-style: none;
+padding-left: 0;
+}
+
+.proyectos-lista li {
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  background-color: #e3f2fd;
+  border-left: 5px solid #2196f3;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  max-width: 600px; 
+  margin: 0 auto 10px auto; 
+}
+
+
+#donacion-formulario { 
+text-align: center;
+display: none;
+margin-top: 20px;
+border: 1px solid #ccc;
+padding: 15px;
+margin-top: 10px;
+background-color: #f9f9f9;
+border-radius: 5px;
+}
+
+#donante { 
+text-align: center;
+padding: 10px;
+margin-top: 10px;
+
+}
+
+#registro-proyecto.form-group { 
+text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"], 
+input[type="number"] {
+  width: 20%;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+body {
+    justify-content: center;  /* Centrado horizontal */
+}
+
+.inproyectos-container { 
+text-align: center; 
+margin-top: 20px;
+} 
